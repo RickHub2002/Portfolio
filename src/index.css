@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.li-skills {
+  @apply flex flex-col items-center gap-5 text-center w-full h-150 pt-10 border-r-1;
+}
+
+.li-icon {
+  @apply text-[25px];
+}
+
+:root {
+  /*CORES */
+  --cor-red: #E54B4B;
+  --cor-orange: #FFA987;
+  --cor-soft-white: #F7EBE8;
+
+  --black-50: #e6e6e6;
+  --black-100: #b0b0b0;
+  --black-200: #8a8a8a;
+  --black-300: #545454;
+  --black-400: #333333;
+  --black-500: #1E1E1E;
+  --black-600: #000000;
+
+
+  /*TEXTOS */
+  --xl-text-size: 3.833rem;
+  --xl-2-text-size: 3.056rem;
+  --lg-text-size: 2.444rem;
+  --lg-2-text-size: 1.944rem;
+  --md-text-size: 1.556rem;
+  --md-2-text-size: 1.278rem;
+  --sm-text-size: 1.000rem;
+  --sm-2-text-size: 0.778rem;
+  --sm-3-text-size: 0.667rem;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+span,p,a,button {
+  font-family: 'Roboto', sans-serif;
+}
